@@ -27,6 +27,13 @@ public class DateUtils {
 
     private static String[] monthStr = {"JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEPT", "OCT", "NOV", "DEC"};
 
+    /**
+     * Validates the given date represented by day, month and year.
+     * @param day
+     * @param month
+     * @param year
+     * @throws IllegalArgumentException If the date is incorrect/invalid.
+     */
     public static void validateDate(int day, int month, int year) {
         if (day < 1 || day > 32) {
             throw new IllegalArgumentException(INVALID_DAY_RANGE_ERR);
@@ -57,6 +64,11 @@ public class DateUtils {
         }
     }
 
+    /**
+     * Checks whether the given year is a leap year.
+     * @param year
+     * @return true if the given year is a leap year.
+     */
     public static boolean isLeapYear(int year) {
         if (year % 4 != 0) {
             return false;
