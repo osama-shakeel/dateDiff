@@ -4,6 +4,7 @@
 	+ Parsing the input dates into immutable **CalDate** class instances (which is a highly miniature form of **java.util.Date**).
 	+ The date difference calculation functionality is part of the **CalDate** class itself.
 	+ It is based upon using the representation of the dates in terms of days starting from 01/01/01 AD. The difference of both dates' long representation in days is used to calculate the exact day difference of both dates.
+- All the code written is backed by unit test cases.
 - The program implemenation has been kept simple with respect to the choice of frameworks.
 - The implementation is wholly Java SE based with very minimal use of Java libaries.
 
