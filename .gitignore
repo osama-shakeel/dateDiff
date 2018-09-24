@@ -1,0 +1,21 @@
+.DS_Store
+.project
+.classpath
+.settings
+.metadata
+*.versionsBackup
+*.iml
+*.idea
+*.springBeans
+
+# Application generated files #
+**/build
+**/out
+**/test-output/
+**/test-output
+**/target
+.gradle
+*.ipr
+*.iws
+/bin/
+*.sw[po]
